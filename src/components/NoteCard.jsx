@@ -4,7 +4,7 @@ import { showFormattedDate } from '../utils/data'
 function NoteCard({ changeButton, id, title, body, createdAt, onDelete, buttonData }) {
     return (
         <div className="mx-auto p-6 w-full bg-white rounded-lg border border-gray-200 shadow-md">
-            <div className="text-gray-400 pb-2">
+            <div className="text-gray-700 pb-2">
                 <h5 className="mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h5>
                 <span className="text-sm">{showFormattedDate(createdAt)}</span>
             </div>
